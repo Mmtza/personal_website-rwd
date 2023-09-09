@@ -8,6 +8,9 @@
     <!-- My Css -->
     <link rel="stylesheet" href="style.css" />
 
+    <!-- Aos CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!-- Bootstrap Theme Quartz -->
     <link rel="stylesheet" href="theme/bootstrap.min.css" />
   </head>
@@ -106,7 +109,7 @@
       <div class="row">
         <div class="col-6 col-lg-9 col-md-8 col-sm-7 col-xl-10 col-xxl-10">
           <!----------------  awal body ---------------->
-          <div class="card border-primary mb-3" id="introduce">
+          <div class="card border-primary mb-3" id="introduce" data-aos="fade-up">
             <div class="card-header">Introduce</div>
             <div class="card-body">
               <h4 class="card-title">Bagus Muhammad Mumtaza - Fullstack Developer</h4>
@@ -116,7 +119,7 @@
               </p>
             </div>
           </div>
-          <div class="card border-primary mb-3" id="language">
+          <div class="card border-primary mb-3" id="language" data-aos="fade-up">
             <div class="card-header">Programming Language</div>
             <div class="card-body">
               <h4 class="card-title">Bahasa Pemrograman Yang Dikuasai</h4>
@@ -139,7 +142,7 @@
               </div>
             </div>
           </div>
-          <div class="card border-primary mb-3" id="framework">
+          <div class="card border-primary mb-3" id="framework" data-aos="fade-up">
             <div class="card-header">Framework</div>
             <div class="card-body">
               <h4 class="card-title">Framework Yang Disukai</h4>
@@ -184,5 +187,9 @@
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
